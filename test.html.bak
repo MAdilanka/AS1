@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("3.jpg")}
+.bgimg2 {background-image: url("5.jpg")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">About</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Contact</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Good Times</a>
+  </div>
+</div>
+
+<!-- About / Dhanushka Malinda Jayalath -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>DHANUSHKA MALINDA JAYALATH</b></h1>
+	<p class="MsoNormal" align="center">
+    <img class="center" src="4.jpg" style="width:25%;margin:32px 0">
+    <p><i>My name is Dhanushka Malinda Jayalath and 36 years old.I currently live in Kyoto and studding in Kyoto Collage of Graduate Studies for Informatics. Before I came to Japan I live and worked in Sri Lanka. I graduated from the Open University of Sri Lanka in 2013 with a Bachelor's Degree in Law. After my graduation I work as a Legal Officer in Government institute. My future ambition is to be a HR manager.
+My hobbies are playing Cricket, watching movies and Hiking.</i>
+    </p><br>
+    <p class="w3-center"><a href="Dhanushka updated CV 01.09. 2021.docx" class="w3-button w3-black w3-round w3-padding-large w3-large">Click here to download my CV</a></p>
+  </div>
+</div>
+
+<!-- Contact Details -->
+<div class="w3-display-container bgimg2" id="wedding">
+  <div class="w3-display-middle w3-text-white w3-center">
+  </div>
+  <h1 class="w3-center w3-text-balck"><b>CONTACTS</b></h1>
+  <h5 class="w3-text-gray"> <b>Mailing Address    : </b> <a class="w3-text-black"> 113, Awazu Haitsu, 76-1 Kamigamo Tsunokuni cho, Kitha ku, Kyoto </a>
+  <h5 class="w3-text-gray"> <b>Contact Number     : </b> <a class="w3-text-black"> 080-456-4567 </a>
+  <h5 class="w3-text-gray"> <b>Email Address      : </b> <a class="w3-text-black"> dmj101@gmaol.com </a>
+  <h5 class="w3-text-gray"> <b>Social Media Links : </b> <a href="https://www.facebook.com/dhanushka.m.jayalath"><img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" width="80" height="65" alt="Flowers in Chania"></a>
+  <h5 class="w3-text-gray"> <b>Location           : </b></h5>
+  <p class="MsoNormal" align="left">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.456735866113!2d135.74408826440816!3d35.07031918034121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a87124bf7347%3A0x6f31b4e178ae7614!2z44CSNjAzLTgwMjc!5e0!3m2!1sja!2sjp!4v1652673629340!5m2!1sja!2sjp" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+  </div>
+</div>
+
+<!-- Good Times -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="rsvp">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>GOOD TIMES IN LIFE</b></h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HU9hUVwH5Ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp1">
+  <h1>THANK YOU !</h1>
+  <p class="w3-large">Prepaired by Dhanushka Malinda Jayalath</p>
+  <div id="current_date"></p>
+  <script>
+	document.getElementById("current_date").innerHTML = Date();
+  </script>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
